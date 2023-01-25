@@ -1,0 +1,12 @@
+com\RestAssured\utility\Reporting.class
+com\RestAssured\testCases\TC002_POST_REQUEST.class
+com\RestAssured\testCases\TC007_GET_REQUEST_Authentication.class
+com\RestAssured\utility\XLUtils.class
+com\RestAssured\base\TestBase.class
+com\RestAssured\utility\RestUtils.class
+com\RestAssured\testCases\TC003_GET_REQUEST.class
+com\RestAssured\testCases\TC006_GET_REQUEST.class
+com\RestAssured\DDTestCases\TC008_DDT_POST_REQUEST.class
+com\RestAssured\testCases\TC004_PUT_REQUEST.class
+com\RestAssured\testCases\TC001_GET_REQUEST.class
+com\RestAssured\testCases\TC005_DELETE_REQUEST.class

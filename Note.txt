@@ -1,0 +1,99 @@
+Response
+-------------------
+statusCode
+statusLine
+ResponseTime
+
+Headers
+ResponseBody
+Json
+Authentication
+
+Steps in API testing:
+1. Define BaseURI
+2. Request object
+3. Response
+4. ResponseBody
+
+Validations:
+1. Status code
+2. Status Line
+3. Headers(Content-Type,Content-Length,Content-Encoding etc......)
+
+Analyse
+----------------------
+Pre-defined: TestNG,Junit,cucumber,Robot etc....
+Customized/User defined framework
+	- Data Driven framework, Hybrid framework etc....
+	
+Hybrid Approach:
+	1. RestAssured
+	2. TestNG
+	3. Maven
+	4. Jenkins(CI)
+	5. Git,Github
+	
+API Testcases
+
+Implementation of Automation Framework
+---------------------------------------------
+1. Implementation/Development
+2. Execution
+3. Maintenance
+
+1. Implementation/Development
+-------------------------------------
+-> Create Maven Project
+-> Update pom.xml
+-> Create Folder structure	
+	
+Folder Structure
+--------------------------------------
+Project_name
+	|
+	base(package)
+	|
+	testCases(package)
+	|
+	utilities(package)
+	|
+	logs(Folder)
+	|
+	reports(Folder)
+	|
+	pom.xml
+	|
+	testNG.xml
+	
+	
+To Generate Extent Report
+---------------------------------------------------
+1. Add Dependency in pom.xml
+2. Utlity file to generate report
+	
+How many ways we can execute framework/ test cases
+-------------------------------------------------------
+1. TestNG.xml
+2. pom.xml
+3. Command prompt
+4. run.bat
+5. Jenkins
+
+Github
+-------------------------------------------------
+https://github.com/Kambojankush01/restassuredAPIProject.git
+
+Cloning local git repository within eclipse using Github URL
+Add our project to local git repository
+
+
+zabang
+
+	
+	
+	
+	
+	
+	
+	
+	

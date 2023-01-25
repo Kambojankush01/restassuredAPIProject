@@ -1,0 +1,526 @@
+2023-01-25 12:56:35,981 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 12:56:41,725 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 12:56:41,729 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 12:56:41,778 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 12:56:41,780 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 12:56:41,794 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 12:56:41,795 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 12:56:41,805 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 12:56:41,815 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 12:56:41,846 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 12:56:41,862 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 12:56:41,865 - EmployeesRestAPI -INFO - Response Time is==> 1441
+2023-01-25 12:56:41,876 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 12:56:41,877 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 12:56:41,910 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 12:56:41,913 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 12:56:41,931 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 12:56:41,932 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 12:56:41,947 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 12:56:41,959 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 12:56:45,588 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 12:56:45,590 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 12:56:45,597 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 12:56:45,597 - EmployeesRestAPI -INFO - Response Time is==> 546
+2023-01-25 12:56:45,599 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 12:56:45,602 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 12:56:45,607 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 12:56:45,607 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 12:56:45,612 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 12:56:45,612 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 12:56:45,620 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 12:56:49,060 - EmployeesRestAPI -INFO - Success Code ==> Johnj
+2023-01-25 12:56:49,540 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 12:56:50,454 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 12:56:55,160 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 12:56:55,161 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 12:56:55,167 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 12:56:55,168 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 12:56:55,175 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 12:56:55,175 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 12:56:55,180 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 12:56:55,182 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 12:56:55,187 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 12:56:55,188 - EmployeesRestAPI -INFO - Response Time is==> 911
+2023-01-25 12:56:55,190 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 12:56:55,190 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 12:56:55,195 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 12:56:55,196 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 12:56:55,199 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 12:56:55,202 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 12:56:55,209 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 12:56:55,228 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 12:56:58,863 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 12:56:58,863 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 12:56:58,867 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 12:56:58,867 - EmployeesRestAPI -INFO - Response Time is==> 570
+2023-01-25 12:56:58,876 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 12:56:58,876 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 12:56:58,878 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 12:56:58,878 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 12:56:58,884 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 12:56:58,889 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 12:56:58,910 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 12:56:59,020 - EmployeesRestAPI -INFO - Success Code ==> JohnA
+2023-01-25 12:56:59,042 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 12:56:59,059 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 12:57:02,978 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 12:57:02,978 - EmployeesRestAPI -INFO - Response Time is==> 423
+2023-01-25 12:57:02,983 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 12:57:02,983 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 12:57:02,993 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 12:57:02,993 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 12:57:03,006 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 12:57:03,007 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 12:57:03,010 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:04:17,364 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:04:23,904 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:04:23,907 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:04:23,945 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:04:23,946 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:04:23,947 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:04:23,948 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:04:23,948 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:04:23,950 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:04:23,992 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:04:23,996 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:04:23,998 - EmployeesRestAPI -INFO - Response Time is==> 1939
+2023-01-25 13:04:24,000 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:04:24,000 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:04:24,003 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:04:24,003 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:04:24,017 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:04:24,018 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:04:24,020 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:04:24,028 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:04:27,685 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:04:27,686 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:04:27,689 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:04:27,695 - EmployeesRestAPI -INFO - Response Time is==> 538
+2023-01-25 13:04:27,700 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:04:27,702 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:04:27,709 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:04:27,710 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:04:27,714 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:04:27,714 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:04:27,717 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:04:28,920 - EmployeesRestAPI -INFO - Success Code ==> Johnw
+2023-01-25 13:04:28,945 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:04:28,953 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:04:32,278 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:04:32,279 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:04:32,285 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:04:32,287 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:04:32,299 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:04:32,303 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:04:32,310 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:04:32,313 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:04:32,318 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:04:32,319 - EmployeesRestAPI -INFO - Response Time is==> 297
+2023-01-25 13:04:32,323 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:04:32,324 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:04:32,329 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:04:32,334 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:04:32,337 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:04:32,338 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:04:32,345 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:04:32,353 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:04:35,945 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:04:35,947 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:04:35,955 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:04:35,956 - EmployeesRestAPI -INFO - Response Time is==> 565
+2023-01-25 13:04:35,966 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:04:35,966 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:04:35,969 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:04:35,971 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:04:35,983 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:04:35,984 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:04:35,988 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:04:36,007 - EmployeesRestAPI -INFO - Success Code ==> Johnz
+2023-01-25 13:04:36,023 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:04:36,028 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:04:39,975 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:04:39,976 - EmployeesRestAPI -INFO - Response Time is==> 484
+2023-01-25 13:04:39,977 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:04:39,978 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:04:39,979 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:04:39,980 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:04:39,983 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:04:39,985 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:04:39,989 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:10:34,657 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:10:40,220 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:10:40,222 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:10:40,254 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:10:40,257 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:10:40,260 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:10:40,261 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:10:40,263 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:10:40,267 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:10:40,319 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:10:40,328 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:10:40,328 - EmployeesRestAPI -INFO - Response Time is==> 1182
+2023-01-25 13:10:40,338 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:10:40,340 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:10:40,346 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:10:40,351 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:10:40,354 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:10:40,355 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:10:40,360 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:10:40,379 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:10:43,881 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:10:43,883 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:10:43,888 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:10:43,890 - EmployeesRestAPI -INFO - Response Time is==> 446
+2023-01-25 13:10:43,897 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:10:43,899 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:10:43,906 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:10:43,907 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:10:43,911 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:10:43,912 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:10:43,922 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:10:44,752 - EmployeesRestAPI -INFO - Success Code ==> Johnl
+2023-01-25 13:10:44,770 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:10:44,786 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:10:48,038 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:10:48,038 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:10:48,040 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:10:48,041 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:10:48,044 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:10:48,045 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:10:48,049 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:10:48,050 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:10:48,053 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:10:48,054 - EmployeesRestAPI -INFO - Response Time is==> 240
+2023-01-25 13:10:48,058 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:10:48,059 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:10:48,066 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:10:48,066 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:10:48,073 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:10:48,074 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:10:48,078 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:10:48,092 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:10:51,481 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:10:51,483 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:10:51,485 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:10:51,485 - EmployeesRestAPI -INFO - Response Time is==> 361
+2023-01-25 13:10:51,487 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:10:51,487 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:10:51,488 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:10:51,490 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:10:51,492 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:10:51,493 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:10:51,495 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:10:51,525 - EmployeesRestAPI -INFO - Success Code ==> Johnk
+2023-01-25 13:10:51,546 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:10:51,555 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:10:55,369 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:10:55,371 - EmployeesRestAPI -INFO - Response Time is==> 446
+2023-01-25 13:10:55,375 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:10:55,376 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:10:55,379 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:10:55,380 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:10:55,385 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:10:55,386 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:10:55,390 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:13:02,994 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:13:10,614 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:13:10,617 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:13:10,635 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:13:10,636 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:13:10,639 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:13:10,640 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:13:10,645 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:13:10,648 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:13:10,680 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:13:10,687 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:13:10,688 - EmployeesRestAPI -INFO - Response Time is==> 2243
+2023-01-25 13:13:10,691 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:13:10,691 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:13:10,695 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:13:10,696 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:13:10,697 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:13:10,698 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:13:10,706 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:13:10,723 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:13:14,191 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:13:14,193 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:13:14,198 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:13:14,200 - EmployeesRestAPI -INFO - Response Time is==> 413
+2023-01-25 13:13:14,206 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:13:14,207 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:13:14,209 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:13:14,210 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:13:14,214 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:13:14,215 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:13:14,218 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:13:14,772 - EmployeesRestAPI -INFO - Success Code ==> Johnc
+2023-01-25 13:13:14,786 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:13:14,791 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:13:17,947 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:13:17,947 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:13:17,948 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:13:17,949 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:13:17,951 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:13:17,951 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:13:17,954 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:13:17,955 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:13:17,956 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:13:17,957 - EmployeesRestAPI -INFO - Response Time is==> 140
+2023-01-25 13:13:17,959 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:13:17,959 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:13:17,960 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:13:17,961 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:13:17,963 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:13:17,964 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:13:17,968 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:13:17,980 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:13:21,331 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:13:21,335 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:13:21,340 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:13:21,343 - EmployeesRestAPI -INFO - Response Time is==> 328
+2023-01-25 13:13:21,348 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:13:21,349 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:13:21,354 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:13:21,355 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:13:21,358 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:13:21,360 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:13:21,361 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:13:21,388 - EmployeesRestAPI -INFO - Success Code ==> JohnL
+2023-01-25 13:13:21,421 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:13:21,430 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:13:25,039 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:13:25,041 - EmployeesRestAPI -INFO - Response Time is==> 332
+2023-01-25 13:13:25,047 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:13:25,053 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:13:25,056 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:13:25,057 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:13:25,059 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:13:25,060 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:13:25,066 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:22:03,764 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:22:13,601 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:22:13,603 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:22:13,621 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:22:13,621 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:22:13,629 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:22:13,630 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:22:13,632 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:22:13,636 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:22:13,679 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:22:13,681 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:22:13,682 - EmployeesRestAPI -INFO - Response Time is==> 3605
+2023-01-25 13:22:13,683 - EmployeesRestAPI -WARN - Response Time is greater than 3000
+2023-01-25 13:22:13,698 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:22:13,698 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:22:13,700 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:22:13,700 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:22:13,702 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:22:13,713 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:22:13,718 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:22:13,731 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:22:17,181 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:22:17,181 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:22:17,182 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:22:17,183 - EmployeesRestAPI -INFO - Response Time is==> 414
+2023-01-25 13:22:17,185 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:22:17,186 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:22:17,188 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:22:17,197 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:22:17,200 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:22:17,200 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:22:17,202 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:22:18,671 - EmployeesRestAPI -INFO - Success Code ==> Johnj
+2023-01-25 13:22:18,716 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:22:18,728 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:22:21,948 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:22:21,950 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:22:21,960 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:22:21,961 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:22:21,968 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:22:21,970 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:22:21,972 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:22:21,978 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:22:21,982 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:22:21,982 - EmployeesRestAPI -INFO - Response Time is==> 183
+2023-01-25 13:22:21,986 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:22:21,987 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:22:21,989 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:22:21,992 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:22:21,999 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:22:21,999 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:22:22,002 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:22:22,017 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:22:25,369 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:22:25,370 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:22:25,376 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:22:25,379 - EmployeesRestAPI -INFO - Response Time is==> 333
+2023-01-25 13:22:25,382 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:22:25,382 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:22:25,385 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:22:25,386 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:22:25,388 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:22:25,389 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:22:25,394 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:22:25,411 - EmployeesRestAPI -INFO - Success Code ==> JohnJ
+2023-01-25 13:22:25,426 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:22:25,431 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:22:29,047 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:22:29,048 - EmployeesRestAPI -INFO - Response Time is==> 336
+2023-01-25 13:22:29,051 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:22:29,051 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:22:29,054 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:22:29,055 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:22:29,057 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:22:29,058 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:22:29,061 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:24:10,129 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:24:17,503 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:24:17,507 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:24:17,532 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:24:17,533 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:24:17,536 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:24:17,543 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:24:17,547 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:24:17,549 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:24:17,603 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:24:17,606 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:24:17,607 - EmployeesRestAPI -INFO - Response Time is==> 2350
+2023-01-25 13:24:17,613 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:24:17,614 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:24:17,618 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:24:17,618 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:24:17,621 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:24:17,622 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:24:17,624 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:24:17,641 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:24:21,094 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:24:21,096 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:24:21,100 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:24:21,101 - EmployeesRestAPI -INFO - Response Time is==> 422
+2023-01-25 13:24:21,102 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:24:21,103 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:24:21,106 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:24:21,107 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:24:21,112 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:24:21,113 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:24:21,115 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:24:22,005 - EmployeesRestAPI -INFO - Success Code ==> Johnw
+2023-01-25 13:24:22,071 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:24:22,101 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:24:25,297 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:24:25,297 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:24:25,300 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:24:25,301 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:24:25,302 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:24:25,303 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:24:25,305 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:24:25,306 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:24:25,310 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:24:25,310 - EmployeesRestAPI -INFO - Response Time is==> 174
+2023-01-25 13:24:25,313 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:24:25,314 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:24:25,317 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:24:25,318 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:24:25,319 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:24:25,319 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:24:25,321 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:24:25,332 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:24:28,682 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:24:28,684 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:24:28,688 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:24:28,690 - EmployeesRestAPI -INFO - Response Time is==> 324
+2023-01-25 13:24:28,700 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:24:28,701 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:24:28,706 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:24:28,707 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:24:28,713 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:24:28,714 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:24:28,717 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:24:28,731 - EmployeesRestAPI -INFO - Success Code ==> Johna
+2023-01-25 13:24:28,750 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:24:28,764 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:24:32,397 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:24:32,399 - EmployeesRestAPI -INFO - Response Time is==> 319
+2023-01-25 13:24:32,401 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:24:32,403 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:24:32,407 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:24:32,408 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:24:32,414 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:24:32,414 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:24:32,416 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************
+2023-01-25 13:29:02,923 - EmployeesRestAPI -INFO - *****************Started TC001_Get_List_of_User*********************
+2023-01-25 13:29:08,724 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:29:08,727 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:29:08,742 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:29:08,743 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:29:08,746 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:29:08,747 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:29:08,750 - EmployeesRestAPI -INFO - *****************Checking Cookies*********************
+2023-01-25 13:29:08,757 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:29:08,792 - EmployeesRestAPI -INFO - Response Body==> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:29:08,794 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:29:08,796 - EmployeesRestAPI -INFO - Response Time is==> 1132
+2023-01-25 13:29:08,801 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:29:08,801 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:29:08,804 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:29:08,805 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:29:08,807 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:29:08,809 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:29:08,818 - EmployeesRestAPI -INFO - *****************Finished TC001_Get_List_of_User*********************
+2023-01-25 13:29:08,828 - EmployeesRestAPI -INFO - *****************Started TC002_Post_User_Details*********************
+2023-01-25 13:29:12,358 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:29:12,359 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:29:12,366 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:29:12,370 - EmployeesRestAPI -INFO - Response Time is==> 448
+2023-01-25 13:29:12,373 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:29:12,374 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:29:12,383 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:29:12,384 - EmployeesRestAPI -INFO - Status Code==> 201
+2023-01-25 13:29:12,386 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:29:12,388 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 201 Created
+2023-01-25 13:29:12,394 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:29:14,894 - EmployeesRestAPI -INFO - Success Code ==> JohnY
+2023-01-25 13:29:14,922 - EmployeesRestAPI -INFO - *****************Finished TC002_Post_User_Details*********************
+2023-01-25 13:29:14,940 - EmployeesRestAPI -INFO - *****************Started TC003_Get_Single_User_Details*********************
+2023-01-25 13:29:18,142 - EmployeesRestAPI -INFO - *****************Checking Content Encoding*********************
+2023-01-25 13:29:18,142 - EmployeesRestAPI -INFO - Content-Encoding is ==> gzip
+2023-01-25 13:29:18,144 - EmployeesRestAPI -INFO - *****************Checking Content Length*********************
+2023-01-25 13:29:18,145 - EmployeesRestAPI -INFO - Content-Length is ==> null
+2023-01-25 13:29:18,149 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:29:18,150 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:29:18,152 - EmployeesRestAPI -INFO - *****************Checking Response Body*********************
+2023-01-25 13:29:18,154 - EmployeesRestAPI -INFO - Response Body==> {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2023-01-25 13:29:18,156 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:29:18,157 - EmployeesRestAPI -INFO - Response Time is==> 180
+2023-01-25 13:29:18,160 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:29:18,160 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:29:18,162 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:29:18,164 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:29:18,166 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:29:18,166 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:29:18,169 - EmployeesRestAPI -INFO - *****************Finished TC003_Get_Single_User_Details*********************
+2023-01-25 13:29:18,187 - EmployeesRestAPI -INFO - *****************Started TC004_Update_User_Details*********************
+2023-01-25 13:29:21,574 - EmployeesRestAPI -INFO - *****************Checking Content Type*********************
+2023-01-25 13:29:21,576 - EmployeesRestAPI -INFO - Content type is ==> application/json; charset=utf-8
+2023-01-25 13:29:21,594 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:29:21,595 - EmployeesRestAPI -INFO - Response Time is==> 363
+2023-01-25 13:29:21,600 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:29:21,601 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:29:21,604 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:29:21,605 - EmployeesRestAPI -INFO - Status Code==> 200
+2023-01-25 13:29:21,607 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:29:21,607 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 200 OK
+2023-01-25 13:29:21,609 - EmployeesRestAPI -INFO - *****************Checking Success Code*********************
+2023-01-25 13:29:21,628 - EmployeesRestAPI -INFO - Success Code ==> JohnM
+2023-01-25 13:29:21,645 - EmployeesRestAPI -INFO - *****************Finished TC004_Update_User_Details*********************
+2023-01-25 13:29:21,650 - EmployeesRestAPI -INFO - *****************Started TC005_Delete_First_User*********************
+2023-01-25 13:29:25,369 - EmployeesRestAPI -INFO - *****************Checking Response Time*********************
+2023-01-25 13:29:25,371 - EmployeesRestAPI -INFO - Response Time is==> 376
+2023-01-25 13:29:25,373 - EmployeesRestAPI -INFO - *****************Checking Server Type*********************
+2023-01-25 13:29:25,374 - EmployeesRestAPI -INFO - Server Type is ==> cloudflare
+2023-01-25 13:29:25,375 - EmployeesRestAPI -INFO - *****************Checking Status Code*********************
+2023-01-25 13:29:25,376 - EmployeesRestAPI -INFO - Status Code==> 204
+2023-01-25 13:29:25,388 - EmployeesRestAPI -INFO - *****************Checking Status Line*********************
+2023-01-25 13:29:25,388 - EmployeesRestAPI -INFO - Status Line is==> HTTP/1.1 204 No Content
+2023-01-25 13:29:25,391 - EmployeesRestAPI -INFO - *****************Finished TC005_Delete_First_User*********************

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UserRestAPISuite" duration-ms="27727" started-at="2023-01-25T12:56:35 EST" finished-at="2023-01-25T12:57:03 EST">
+    <groups>
+    </groups>
+    <test name="UserRestAPISuite" duration-ms="27727" started-at="2023-01-25T12:56:35 EST" finished-at="2023-01-25T12:57:03 EST">
+      <class name="com.RestAssured.testCases.TC004_PUT_REQUEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="setup" is-config="true" duration-ms="17" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="updateUser" is-config="true" duration-ms="3631" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkContentType" duration-ms="3" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkResponseTime" duration-ms="4" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkServerType" duration-ms="2" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkStatusCode" duration-ms="2" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkStatusLine" duration-ms="10" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkSuccessCode()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="checkSuccessCode" duration-ms="135" started-at="2023-01-25T12:56:58 EST" finished-at="2023-01-25T12:56:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.testCases.TC004_PUT_REQUEST@5f3a4b84]" name="tearDown" is-config="true" duration-ms="2" started-at="2023-01-25T12:56:59 EST" finished-at="2023-01-25T12:56:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.testCases.TC004_PUT_REQUEST -->
+      <class name="com.RestAssured.testCases.TC003_GET_REQUEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="setup" is-config="true" duration-ms="910" started-at="2023-01-25T12:56:49 EST" finished-at="2023-01-25T12:56:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getDetailsOfUser()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="getDetailsOfUser" is-config="true" duration-ms="4699" started-at="2023-01-25T12:56:50 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetailsOfUser -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkContentEncoding" duration-ms="8" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkContentLength" duration-ms="3" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkContentType" duration-ms="4" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkResponseBody" duration-ms="2" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkResponseTime" duration-ms="3" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkServerType" duration-ms="1" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkStatusCode" duration-ms="1" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="checkStatusLine" duration-ms="4" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.testCases.TC003_GET_REQUEST@12cdcf4]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-01-25T12:56:55 EST" finished-at="2023-01-25T12:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.testCases.TC003_GET_REQUEST -->
+      <class name="com.RestAssured.testCases.TC001_GET_REQUEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="setup" is-config="true" duration-ms="50" started-at="2023-01-25T12:56:35 EST" finished-at="2023-01-25T12:56:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getListOfUsers()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="getListOfUsers" is-config="true" duration-ms="5715" started-at="2023-01-25T12:56:35 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkContentEncoding" duration-ms="26" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkContentLength" duration-ms="3" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkContentType" duration-ms="7" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkCookies()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkCookies" duration-ms="3" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkResponseBody" duration-ms="36" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkResponseTime" duration-ms="13" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkServerType" duration-ms="5" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkStatusCode" duration-ms="41" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="checkStatusLine" duration-ms="3" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.testCases.TC001_GET_REQUEST@4abdb505]" name="tearDown" is-config="true" duration-ms="2" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.testCases.TC001_GET_REQUEST -->
+      <class name="com.RestAssured.testCases.TC006_GET_REQUEST">
+        <test-method status="PASS" signature="getListOfUsersAll_Nodes()[pri:0, instance:com.RestAssured.testCases.TC006_GET_REQUEST@670b40af]" name="getListOfUsersAll_Nodes" duration-ms="471" started-at="2023-01-25T12:57:03 EST" finished-at="2023-01-25T12:57:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsersAll_Nodes -->
+      </class> <!-- com.RestAssured.testCases.TC006_GET_REQUEST -->
+      <class name="com.RestAssured.testCases.TC002_POST_REQUEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="setup" is-config="true" duration-ms="5" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postDetailsOfUser()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="postDetailsOfUser" is-config="true" duration-ms="3627" started-at="2023-01-25T12:56:41 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDetailsOfUser -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkContentType" duration-ms="4" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkResponseTime" duration-ms="3" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkServerType" duration-ms="4" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkStatusCode" duration-ms="1" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkStatusLine" duration-ms="6" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkSuccessCode()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="checkSuccessCode" duration-ms="3541" started-at="2023-01-25T12:56:45 EST" finished-at="2023-01-25T12:56:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.testCases.TC002_POST_REQUEST@25af5db5]" name="tearDown" is-config="true" duration-ms="333" started-at="2023-01-25T12:56:49 EST" finished-at="2023-01-25T12:56:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.testCases.TC002_POST_REQUEST -->
+      <class name="com.RestAssured.testCases.TC005_DELETE_REQUEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="setup" is-config="true" duration-ms="7" started-at="2023-01-25T12:56:59 EST" finished-at="2023-01-25T12:56:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getListOfUsers()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="getListOfUsers" is-config="true" duration-ms="3917" started-at="2023-01-25T12:56:59 EST" finished-at="2023-01-25T12:57:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="checkResponseTime" duration-ms="2" started-at="2023-01-25T12:57:02 EST" finished-at="2023-01-25T12:57:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="checkServerType" duration-ms="2" started-at="2023-01-25T12:57:02 EST" finished-at="2023-01-25T12:57:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="checkStatusCode" duration-ms="4" started-at="2023-01-25T12:57:02 EST" finished-at="2023-01-25T12:57:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="checkStatusLine" duration-ms="5" started-at="2023-01-25T12:57:03 EST" finished-at="2023-01-25T12:57:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.RestAssured.testCases.TC005_DELETE_REQUEST@27f723]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-01-25T12:57:03 EST" finished-at="2023-01-25T12:57:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.RestAssured.testCases.TC005_DELETE_REQUEST -->
+    </test> <!-- UserRestAPISuite -->
+  </suite> <!-- UserRestAPISuite -->
+</testng-results>
